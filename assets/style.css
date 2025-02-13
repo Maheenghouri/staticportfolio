@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img.site-logo {
+    width: 50px;
+}
+
+.navbar-nav {
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-nav .active {
+    background-color: #ffe600;
+}
+
+.navbar-nav .active a {
+    color: #1d1d1d !important;
+}
+
+li.nav-item:hover {
+    background-color: #ffe600;
+}
+
+li.nav-item:hover a:hover {
+    color: #1d1d1d;
+}
+
+section.sec-one {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+}
+
+.sec-one .inner-col .col-content h1, .sec-one .inner-col .col-content h5, .sec-one .inner-col .col-content p {
+    color: white;
+}
+
+.img-shape img {
+    width: 300px;
+}
+
+.inner-col {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.inner-content-end {
+    justify-content: end;
+}
+
+.txt-color-yellow {
+    background-color: #ffe600;
+    color: #1d1d1d;
+    padding: 2px 10px;
+}
+
+.img-shape {
+    position: relative;
+    background-color: #ffe600;
+    border-radius: 350px;
+    width: 400px; /* Adjust the width of the section as needed */
+    height: 300px; /* Adjust the height of the section as needed */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Apply transition effect on transform and opacity */
+}
+
+.img-shape:hover img {
+    transform: scale(1.1); /* Scale the image by 10% on hover */
+}
+
+.sec-one .inner-col .col-content h1 {
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
